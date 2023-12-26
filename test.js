@@ -1,3 +1,5 @@
-let text = "asdfdfgdflkgjdfkjkdg";
+let text = "asdfdfgdflkgjdfkjkdg  ";
+ttext=text.trim()
+console.log(ttext)
 
-console.log(text.length)
+document.getElementById("demo").innerHTML=ttext
