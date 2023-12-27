@@ -34,6 +34,11 @@ console.log(cars)
 // dynamic add to array
 // cars[cars.length] = "bamama"
 // text = cars
+// cars.sort()
+// text = cars.reverse()
 
+const point = [40,100,1,5,25,10]
+point.sort(function (a,b){return b-a})
+text=point
 
 document.getElementById("demo").innerHTML= text
