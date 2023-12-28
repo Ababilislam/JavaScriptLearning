@@ -37,8 +37,13 @@ console.log(cars)
 // cars.sort()
 // text = cars.reverse()
 
-const point = [40,100,1,5,25,10]
-point.sort(function (a,b){return b-a})
-text=point
+// const point = [40,100,1,5,25,10]
+// point.sort(function (a,b){return b-a})
+// text=point
+
+function ludo_roll(min,max){
+    return Math.floor(Math.random()*(max-min+1))+min
+}
+text = ludo_roll(1,6)
 
 document.getElementById("demo").innerHTML= text
