@@ -41,9 +41,13 @@ console.log(cars)
 // point.sort(function (a,b){return b-a})
 // text=point
 
-function ludo_roll(min,max){
-    return Math.floor(Math.random()*(max-min+1))+min
-}
-text = ludo_roll(1,6)
+// function ludo_roll(min,max){
+//     return Math.floor(Math.random()*(max-min+1))+min
+// }
+// text = ludo_roll(1,6)
 
+// const students = ["ab", "sa", "pa","ak"]
+// text = students.sort()
+const roll_numbers = [3,5,2,6,1]
+text = roll_numbers.sort(function (a,b){return a-b})
 document.getElementById("demo").innerHTML= text
