@@ -2,11 +2,11 @@
 // ttext=text.replace("Apple","Mango");
 // console.log(ttext)
 
-const cars =["saab","volvo","BMW"]
+// const cars =["saab","volvo","BMW"]
 
 
 
-let carlen = cars.length
+// let carlen = cars.length
 
 // data = cars[cars.length-1]
 // text = "<ul>"
@@ -15,12 +15,12 @@ let carlen = cars.length
 //     text+="<li>"+cars[i]+"</li>"
 // }
 // text+="<ul>"
-cars.push("daka")
-function myfunction(data){
-    text+="<li>"+data+"</li>"
-}
-
-console.log(cars)
+// cars.push("daka")
+// function myfunction(data){
+//     text+="<li>"+data+"</li>"
+// }
+//
+// console.log(cars)
 // text = "<ul>"
 // cars.forEach(myfunction);
 // text+="<ul>"
