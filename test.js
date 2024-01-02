@@ -48,6 +48,32 @@ console.log(cars)
 
 // const students = ["ab", "sa", "pa","ak"]
 // text = students.sort()
-const roll_numbers = [3,5,2,6,1]
-text = roll_numbers.sort(function (a,b){return a-b})
+// const roll_numbers = [3,5,2,6,1]
+// text = roll_numbers.sort(function (a,b){return a-b})
+
+// leap year------------------
+// function  isLeapYear(year){
+//     if((year%400===0)||((year%4===0)&&(year%100!==0)))
+//         return `${year} is a leap year`
+//     else {
+//         return `${year} is not a leap year`
+//     }
+// }
+// text = isLeapYear(2028)
+
+// vowel finding==============
+const vowel= [ "a","e","i","o","u","A","E","O","I","U"]
+
+function countVowel(sentence){
+    let count =0
+    const letters = Array.from(sentence)
+    letters.forEach(function (value){
+        if(vowel.includes(value)){
+            count+=1;
+        }
+    })
+    return count
+}
+text = countVowel("I love Bangladesh")
+
 document.getElementById("demo").innerHTML= text
