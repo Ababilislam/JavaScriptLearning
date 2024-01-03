@@ -5,7 +5,6 @@
 // const cars =["saab","volvo","BMW"]
 
 
-
 // let carlen = cars.length
 
 // data = cars[cars.length-1]
