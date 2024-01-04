@@ -61,18 +61,29 @@
 // text = isLeapYear(2028)
 
 // vowel finding==============
-const vowel= [ "a","e","i","o","u","A","E","O","I","U"]
+// const vowel= [ "a","e","i","o","u","A","E","O","I","U"]
+//
+// function countVowel(sentence){
+//     let count =0
+//     const letters = Array.from(sentence)
+//     letters.forEach(function (value){
+//         if(vowel.includes(value)){
+//             count+=1;
+//         }
+//     })
+//     return count
+// }
+// text = countVowel("I love Bangladesh")
 
-function countVowel(sentence){
-    let count =0
-    const letters = Array.from(sentence)
-    letters.forEach(function (value){
-        if(vowel.includes(value)){
-            count+=1;
-        }
-    })
-    return count
+// this keyword
+
+const person= {
+    firstName:"ab",
+        lastName:"udoy",
+        fullname: function() {
+        return this.firstName+" "+this.lastName;
+    }
 }
-text = countVowel("I love Bangladesh")
-
+text = person.fullname()
+console.log(text)
 document.getElementById("demo").innerHTML= text
