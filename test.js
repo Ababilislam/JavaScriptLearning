@@ -84,6 +84,7 @@ const person= {
         return this.firstName+" "+this.lastName;
     }
 }
+
 text = person.fullname()
 console.log(text)
 document.getElementById("demo").innerHTML= text
