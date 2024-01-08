@@ -77,14 +77,16 @@
 
 // this keyword
 
-const person= {
-    firstName:"ab",
-        lastName:"udoy",
-        fullname: function() {
-        return this.firstName+" "+this.lastName;
-    }
-}
+// const person= {
+//     firstName:"ab",
+//         lastName:"udoy",
+//         fullname: function() {
+//         return this.firstName+" "+this.lastName;
+//     }
+// }
+//
+// text = person.fullname()
 
-text = person.fullname()
-console.log(text)
+let text = "Bangladesh"
+console.log(text.toUpperCase())
 document.getElementById("demo").innerHTML= text
