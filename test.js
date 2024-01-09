@@ -91,6 +91,17 @@
 // let text = "Bangladesh"
 // console.log(text.toUpperCase())
 
+// functions
+function sleep(){
+    console.log("I am slepping")
+}
+sleep()
+
+// anonimius function
+const x = function (){console.log("i am wake")}
+x();
+
+
 
 
 document.getElementById("demo").innerHTML= text
