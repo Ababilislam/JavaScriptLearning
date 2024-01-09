@@ -110,4 +110,5 @@ fan(2,3)
 
 
 
+
 document.getElementById("demo").innerHTML= text
