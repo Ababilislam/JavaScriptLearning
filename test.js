@@ -87,6 +87,10 @@
 //
 // text = person.fullname()
 
-let text = "Bangladesh"
-console.log(text.toUpperCase())
+// object property
+// let text = "Bangladesh"
+// console.log(text.toUpperCase())
+
+
+
 document.getElementById("demo").innerHTML= text
