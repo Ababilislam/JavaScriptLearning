@@ -92,14 +92,20 @@
 // console.log(text.toUpperCase())
 
 // functions
-function sleep(){
-    console.log("I am slepping")
-}
-sleep()
+// function sleep(){
+//     console.log("I am slepping")
+// }
+// sleep()
 
 // anonimius function
-const x = function (){console.log("i am wake")}
-x();
+// const x = function (){console.log("i am wake")}
+// x();
+
+function fan(a,b){
+    return a*b;
+}
+fan(2,3)
+
 
 
 
