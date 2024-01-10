@@ -104,6 +104,7 @@
 function fan(a,b){
     return a*b;
 }
+
 fan(2,3)
 
 
